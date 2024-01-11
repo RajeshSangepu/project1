@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .a{
     position: relative;
     width: 100%;
@@ -133,7 +137,7 @@ section{
 
 .h{
     position: absolute;
-    left: 500px;
+    left: 450px;
     top: 100px;
     width: 60%;
     color: white;
@@ -201,7 +205,7 @@ section{
     margin-left: 100px;
     align-items: center;
     gap: 10px;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .box{
@@ -242,7 +246,6 @@ section{
 .contact-text{
     /* text-align: center; */
     margin-left: 200px;
-    
 }
 
 .contact-text h4{
@@ -287,7 +290,7 @@ section{
 
 .contact-form{
     position: absolute;
-    margin-top: -450px;
+    margin-top: -500px;
     margin-left: 500px;
 }
 
@@ -325,6 +328,19 @@ section{
     
 }
 
+.contact-icons i:hover{
+    margin-top: 50px;
+    color: white;
+    /* background-color: crimson; */
+    height: 50px;
+    width: 50px;
+    transform: scale(1.1);
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    
+}
+
 
 footer{
     background-color: rgba(28, 26, 27, 0.801);
@@ -333,3 +349,6 @@ footer{
 
 }
 
+.navbarScroll .navbarDark{
+    background-color: black;
+}
