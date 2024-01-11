@@ -11,20 +11,20 @@
 <body>
     
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbarScroll">
             <h1 style="font-family: 'Times New Roman'; font-size: 40px; color: rgb(192, 182, 40);">Portfolio</h1>
                 <ul>
-                    <li><a href="Home" style="color: palevioletred;">HOME</a></li>
-                    <li><a href="ABTME">ABOUT ME</a></li>
-                    <li><a href="SER">SERVICES</a></li>
-                    <li><a href="CNT">CONTACT ME</a></li>
-                    <li><a href="HRM">HIRE ME</a></li>
+                    <li><a class="nav-link" href="#Home" style="color: palevioletred;">HOME</a></li>
+                    <li><a class="nav-link" href="#ABTME">ABOUT ME</a></li>
+                    <li><a class="nav-link" href="#SER">SERVICES</a></li>
+                    <li><a class="nav-link"href="#CNT">CONTACT ME</a></li>
+                    <li><a class="nav-link" href="#CNT">HIRE ME</a></li>
                 </ul>
             </nav>
     </header>
 
     
-    <section class="Home">
+    <section class="Home" id="Home">
 
         <div class="a">
 
@@ -54,7 +54,7 @@
 
     </section>
 
-    <section class="ABTME">
+    <section class="ABTME" id="ABTME">
 
         <div class="a">
                 <div class="about">
@@ -67,7 +67,7 @@
                         <h2>Wesite Designer!</h2>
                         <p>
                             Hello, I am Rajesh Sangepu. I am from Khammam. I have completed my bachelor degree in computer science and engineering from MallaReddy College of Engineering. 
-                            Along with my degree, I have completed Java Full-Stack Web Development course which includes JAVA,HTML,CSS,JavaScript,React,DBMS,Springboot in offline Institute. 
+                            Along with my degree, I have completed Java Full-Stack Web Development course which includes JAVA, HTML, CSS, JavaScript, React, DBMS, Springboot in offline Institute. 
                             I am belong to nuclear family. My strength are I am a hardworking, self motivating person and I have strong communication skills also. 
                             My short term goals is to get a job in reputed company and long term goal is to achieve a good position where I can build my career and help the organisation too.
                             My hobbies are reading books & listening music. 
@@ -82,7 +82,7 @@
     </section>
     
 
-    <section class="SER">
+    <section class="SER" id="SER">
         <div class="a">
             <div class="service">
 
@@ -99,7 +99,7 @@
                    <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, aliquid amet quos dicta blanditiis quidem? Delectus laudantium dolor pariatur aliquid itaque ea quo illum repellendus sequi eligendi. Facilis, dicta! Et!
                    </p>
-                   <a href="#">Read more</a>
+                   <a href="">Read more</a>
                 </div>
         
                
@@ -131,22 +131,24 @@
         </div>
     </section>
 
-    <section class="CNT">
+    
+
+    <section class="CNT" id="CNT">
         <div class="a">
             <div class="contact">
                 <div class="contact-text">
-                    <h1>Contact  <span style="color: palevioletred;">Me!</span></h1>
+                    <h1 style="line-height: 200px;">Contact  <span style="color: palevioletred;">Me!</span></h1>
                     <h4>If you have any projects in your mind.</h4>
                     <p>I'm a Website Designer- Creating bold & brave interface<br> design for companies all across the world.</p>
                     <div class="list">
                         <li><a href="">8501883137</a></li>
                         <li><a href="">rajeshsangepu111@gmail.com</a></li>
                         <div class="contact-icons">
-                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/sangepu.rajesh.583"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href=""><i class="fa-brands fa-twitter"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://instagram.com/rajesh___sangepu___?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://wa.me/qr/MEYUJK2FYBHIH1"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/rajesh-sangepu-653baa245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
 
@@ -177,7 +179,6 @@
             </div>
         </div>
     </section>
-
     
     
 
@@ -186,6 +187,23 @@
                amet   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      consectetur  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    adipisicing   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;    elit. <br>
                      Ab      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;        aliquid.
     </footer>
+
+    <!-- <script>
+        
+        const header = document.querySelector('.navbar');
+
+        windows.onscroll = function(){
+            var top = window.scrollY;
+            if(top>=100){
+                header.classList.add('navbarDark');
+            }
+            else{
+                header.classList.remove('navbarDark');
+            }
+        }
+
+    </script> -->
+
 
 </body>
 </html>
