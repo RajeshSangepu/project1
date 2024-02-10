@@ -467,9 +467,11 @@ footer{
     }
 
     .contact-form{
-        position: absolute;
-        margin-left: 50px;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 10px;
     }
+
 
     .service-content{
         display: grid;
@@ -518,12 +520,12 @@ footer{
     }
 
     footer{
-        position: absolute;
-        margin-left: 150px;
-        width: 100%;
+        position: relative;
+        width: 1035px;
         background-color: rgba(28, 26, 27, 0.801);
         color: white;
         text-align: center;
+        margin-top: 400px;
     
     }
 
