@@ -116,7 +116,7 @@ section{
 }
 
 .f:hover .g{
-    left: 45px;
+    left: 2.34375%;
 }
 
 .about{
@@ -437,13 +437,15 @@ footer{
         transition: bottom 1s,left 1s;
     }
     
+
+    
     .e:hover .f{
         bottom: 90px;
     
     }
     
     .f:hover .g{
-        left: 45px;
+        left:  2.34375%;;   
     }
 
     .pic1{
